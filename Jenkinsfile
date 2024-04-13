@@ -1,7 +1,5 @@
 pipeline {
-    agent  {
-        label 'dind-agent'
-    }
+    agent  any
 
     stages {
         stage("build image") {
